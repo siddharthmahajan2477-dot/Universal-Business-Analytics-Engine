@@ -33,6 +33,10 @@ def create_csv():
             writer.writerow(["12-03-2026", "Phone", "Electronics", "South", 9, 36000, 22000])
             writer.writerow(["22-03-2026", "Watch", "Accessories", "East", 14, 35000, 20000])
 
+            writer.writerow(["07-04-2026", "Laptop", "Electronics", "North", 7, 90000, 59000])
+            writer.writerow(["16-04-2026", "Phone", "Electronics", "South", 9, 38000, 24000])
+            writer.writerow(["26-04-2026", "Watch", "Accessories", "East", 14, 40000, 28000])
+
         print("Sample business dataset created.\n")
         
 def load_data():
@@ -304,4 +308,5 @@ def menu():
         else:
             print("Invalid choice. Try again.")
             
+
 menu()
